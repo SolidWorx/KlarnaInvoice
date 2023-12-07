@@ -1,7 +1,7 @@
 {
-    "name": "fp/klarna-invoice",
-    "description": "It unofficial repo of Klarna Invoice service with Composer added. We use it with https://github.com/Payum/KlarnaInvoice",
-    "homepage": "http://developers.klarna.com",
+    "name": "solidworx/klarna-invoice",
+    "description": "The unofficial repo of Klarna Invoice service with Composer added. We use it with https://github.com/Payum/KlarnaInvoice",
+    "homepage": "https://docs.klarna.com/",
     "license": "Apache-2.0",
     "type": "library",
     "require": {
