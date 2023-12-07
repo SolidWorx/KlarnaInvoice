@@ -120,6 +120,7 @@ class KlarnaConfig implements ArrayAccess
         }
     }
 
+    #[\ReturnTypeWillChange()]
     /**
      * Returns true whether the field exists.
      *
@@ -132,6 +133,7 @@ class KlarnaConfig implements ArrayAccess
         return isset($this->options[$offset]);
     }
 
+    #[\ReturnTypeWillChange()]
     /**
      * Used to get the value of a field.
      *
@@ -147,6 +149,7 @@ class KlarnaConfig implements ArrayAccess
         return $this->options[$offset];
     }
 
+    #[\ReturnTypeWillChange()]
     /**
      * Used to set a value to a field.
      *
@@ -160,6 +163,7 @@ class KlarnaConfig implements ArrayAccess
         $this->options[$offset] = $value;
     }
 
+    #[\ReturnTypeWillChange()]
     /**
      * Removes the specified field.
      *
