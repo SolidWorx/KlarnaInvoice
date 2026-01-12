@@ -2119,7 +2119,7 @@ class Klarna
      *
      * @return array
      */
-    private function _addressDigestPart(KlarnaAddr $address = null)
+    private function _addressDigestPart(?KlarnaAddr $address = null)
     {
         if ($address === null) {
             return array();
